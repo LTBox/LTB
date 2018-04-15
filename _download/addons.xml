@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addons>
+    <addon id="repository.LTB" name="LTBox" version="1.0.0" provider-name="Sunny">
+        <requires>
+            <import addon="xbmc.addon" version="12.0.0"/>
+        </requires>
+        <extension point="xbmc.addon.repository" name="LTBox">
+            <info compressed="false">https://github.com/LTBox/LTB_download/addons.xml</info>
+            <checksum>https://github.com/LTBox/LTB_download/addons.xml.md5</checksum>
+            <datadir zip="true">https://github.com/LTBox/LTB_download/</datadir>
+            <hashes>false</hashes>
+        </extension>
+        <extension point="xbmc.addon.metadata">
+            <summary>A kody repo</summary>
+            <description>Kodi Repo for installling addons</description>
+            <platform>all</platform>
+    </extension>
+</addon>
+</addons>
